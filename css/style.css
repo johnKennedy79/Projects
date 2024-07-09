@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color: #1a3a90;
+}
+
+Header {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  color: antiquewhite;
+}
+
+header img {
+  height: 4rem;
+  width: 5rem;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+header Nav {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 1.5rem;
+}
+
+#div {
+  width: 100%;
+  height: fit-content;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
